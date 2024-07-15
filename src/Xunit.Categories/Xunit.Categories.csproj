@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <Authors>Brendan Connolly</Authors>
     <Company>Brendan Connolly</Company>
@@ -17,16 +16,13 @@
     <PackageProjectUrl>https://github.com/brendanconnolly/Xunit.Categories</PackageProjectUrl>
     <Copyright>Copyright 2022</Copyright>
     <PackageTags>Xunit xunit test category categories trait</PackageTags>
-    <TargetFrameworks>netstandard1.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
   </PropertyGroup>
-  
   <PropertyGroup>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <IsPackable>true</IsPackable>
   </PropertyGroup>
-  
   <ItemGroup>
-    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit" Version="2.9.0" />
   </ItemGroup>
-
 </Project>
